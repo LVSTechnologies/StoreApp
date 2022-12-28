@@ -20,6 +20,8 @@
 		9F25C4F22958B88C00465AFD /* ProductListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F25C4F12958B88C00465AFD /* ProductListScreen.swift */; };
 		9F25C4F52958C19200465AFD /* ProductCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F25C4F42958C19200465AFD /* ProductCellView.swift */; };
 		9F25C4F72958C33A00465AFD /* Locale+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F25C4F62958C33A00465AFD /* Locale+Extension.swift */; };
+		9F25C4F9295B560400465AFD /* AddProductScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F25C4F8295B560400465AFD /* AddProductScreen.swift */; };
+		9F25C4FB295CAEB600465AFD /* CreateProductRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F25C4FA295CAEB600465AFD /* CreateProductRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		9F25C4F12958B88C00465AFD /* ProductListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListScreen.swift; sourceTree = "<group>"; };
 		9F25C4F42958C19200465AFD /* ProductCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCellView.swift; sourceTree = "<group>"; };
 		9F25C4F62958C33A00465AFD /* Locale+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Locale+Extension.swift"; sourceTree = "<group>"; };
+		9F25C4F8295B560400465AFD /* AddProductScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductScreen.swift; sourceTree = "<group>"; };
+		9F25C4FA295CAEB600465AFD /* CreateProductRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProductRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,7 @@
 				9F25C4E829561DB100465AFD /* Category.swift */,
 				9F25C4EA2956223300465AFD /* StoreModel.swift */,
 				9F25C4EF29576E3B00465AFD /* Product.swift */,
+				9F25C4FA295CAEB600465AFD /* CreateProductRequest.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -122,6 +127,7 @@
 			children = (
 				9F25C4ED295761DE00465AFD /* CategoryListScreen.swift */,
 				9F25C4F12958B88C00465AFD /* ProductListScreen.swift */,
+				9F25C4F8295B560400465AFD /* AddProductScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -211,6 +217,8 @@
 				9F25C4D62956181300465AFD /* ContentView.swift in Sources */,
 				9F25C4F52958C19200465AFD /* ProductCellView.swift in Sources */,
 				9F25C4F22958B88C00465AFD /* ProductListScreen.swift in Sources */,
+				9F25C4F9295B560400465AFD /* AddProductScreen.swift in Sources */,
+				9F25C4FB295CAEB600465AFD /* CreateProductRequest.swift in Sources */,
 				9F25C4D42956181200465AFD /* StoreAppApp.swift in Sources */,
 				9F25C4E32956195E00465AFD /* URL+Extension.swift in Sources */,
 				9F25C4EE295761DE00465AFD /* CategoryListScreen.swift in Sources */,

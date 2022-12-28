@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ProductListScreen: View {
     @EnvironmentObject var storeModel: StoreModel
+    @State private var isAddProductPresented = false
     let category: Category
     var body: some View {
         List(storeModel.products, id: \.id) { product in
@@ -16,6 +17,19 @@ struct ProductListScreen: View {
         }
         .listStyle(.plain)
         .navigationTitle(category.name)
+        .toolbar{
+            ToolbarItem(placement: .navigationBarTrailing) {
+                Button("Add Product") {
+                    isAddProductPresented = true
+                }
+            }
+        }
+        .sheet(isPresented: $isAddProductPresented, content: {
+            NavigationStack {
+                
+                AddProductScreen()
+            }
+        })
         .task {
             do {
                 try await storeModel.getProductsByCategory(category.id)
